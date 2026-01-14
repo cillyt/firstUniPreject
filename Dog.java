@@ -14,4 +14,7 @@ public class Dog extends Animal{
     public boolean equals(Object o) {
         return super.equals(o);
     }
+    public String eat(){
+        return "Dog " + name + " is eating";
+    }
 }
