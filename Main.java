@@ -7,6 +7,11 @@ public class Main {
     System.out.println(d);
 
     System.out.println(d.equals(d1));
+    System.out.println(d1.eat());
+    d1.feed(d1);
+    d.feed(d);
+    System.out.println(d.eat());
+
     }
 }
 //EBEBEBBEEBB
