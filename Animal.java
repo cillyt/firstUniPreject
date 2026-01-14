@@ -21,5 +21,16 @@ public class Animal {
         boolean breedEquals = (breed == animal.breed) || (breed != null && breed.equals(animal.breed));
         return nameEquals && breedEquals;
     }
+    public String eat(){
+        return "Animal " + name + " is eating";
+    }
+
+    public void feed(Animal animal){
+        if(animal instanceof Dog == true) bark();
+        //bark();
+    }
+     private void bark(){
+        System.out.println("Dog " + name + " is barking");
+     }
 
 }
